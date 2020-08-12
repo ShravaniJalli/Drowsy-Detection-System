@@ -5,11 +5,11 @@ import ibmiotf.application
 import ibmiotf.device
 
 #Provide your IBM Watson Device Credentials
-organization = "4aa10n" # repalce it with organization ID
+organization = "j6bltq" # repalce it with organization ID
 deviceType = "Lights" #replace it with device type
 deviceId = "simple" #repalce with device id
 authMethod = "token"
-authToken = "OkJJz_g69pXCG5)@Ib"#repalce with token
+authToken = "J!WUFxUxUvlW0SmJO+"#repalce with token
 
 def myCommandCallback(cmd):
         print("Command received: %s" % cmd.data)        
